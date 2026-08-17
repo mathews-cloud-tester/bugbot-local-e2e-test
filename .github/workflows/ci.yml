@@ -6,5 +6,7 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - run: exit 0
+      - run: test "$(date +%s)" -ge 1786954990
+
+
 
